@@ -5,7 +5,6 @@ from sklearn.preprocessing import RobustScaler
 from sklearn.metrics import classification_report, accuracy_score
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
-from sklearn.ensemble import BaggingClassifier
 from sklearn.svm import SVC
 from xgboost import XGBClassifier
 
@@ -40,27 +39,20 @@ def model_selection(df : pd.DataFrame) :
     y_pred_lr = lr_model.predict(X_test)
     yield "Logistic Regression", accuracy_score(y_test, y_pred_lr), classification_report(y_test, y_pred_lr)
     
-    
     #3rd model
-    bag_model = BaggingClassifier(n_estimators=50, random_state=42)
-    bag_model.fit(X_train, y_train)
-    y_pred_bag = bag_model.predict(X_test)
-    yield "Bagging", accuracy_score(y_test, y_pred_bag), classification_report(y_test, y_pred_bag)
-    
-    #4th model
     svc = SVC(kernel='rbf', C=1.0)
     svc.fit(X_train, y_train)
     y_pred_svc = svc.predict(X_test)
     yield "SVM", accuracy_score(y_test, y_pred_svc), classification_report(y_test, y_pred_svc)
     
     
-    #5th model
+    #4th model
     xg_model = XGBClassifier()
     xg_model.fit(X_train, y_train)
     y_pred_xg = xg_model.predict(X_test)
     yield "XGBoost", accuracy_score(y_test, y_pred_xg), classification_report(y_test, y_pred_xg)
     
-    #6th model
+    #5th model
     model = Sequential([
     Dense(64, activation='relu', input_dim=X_train.shape[1]),
     Dense(32, activation='relu'),
