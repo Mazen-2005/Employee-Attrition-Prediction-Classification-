@@ -58,7 +58,7 @@ We explored various algorithms to capture different patterns in the HR data:
 
 2\.	Ensemble Methods: Random Forest (100 trees) and XGBoost (Sequential boosting).
 
-3\.	Deep Learning: An Artificial Neural Network (ANN) featuring 3 Dense layers with ReLU activation.
+3\.	Deep Learning: An Artificial Neural Network (ANN) featuring 2 Dense layers with ReLU activation.
 
 4\.	📈 Model Performance \& Results
 
