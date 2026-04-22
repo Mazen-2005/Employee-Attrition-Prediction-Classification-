@@ -66,17 +66,17 @@ We explored various algorithms to capture different patterns in the HR data:
 
 
 
-Model			F1 Score	ROC-AUC
+Model			              F1 Score	    ROC-AUC
 
-Logistic Regression	0.76 		0.753 
+Logistic Regression	    0.76 		      0.753 
 
-Random Forest		0.75 		0.7594 
+Random Forest		        0.75 		      0.7594 
 
-XGBoost			0.74 		0.7432 
+XGBoost			            0.74 		      0.7432 
 
-SVM (Optimized)		0.76 		0.7628 
+SVM (Optimized)		      0.76 		      0.7628 
 
-ANN (Deep Learning)	0.76 		0.7580 
+ANN (Deep Learning)    	0.76 	      	0.7580 
 
 
 
