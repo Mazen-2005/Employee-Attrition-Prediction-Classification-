@@ -1,4 +1,4 @@
-🎯 Problem Definition \& Objectives
+## 🎯 Problem Definition \& Objectives
 
 •	Objective: To proactively predict employee turnover risk within an organization.
 
@@ -12,7 +12,7 @@
 
 
 
-📊 Dataset Overview
+## 📊 Dataset Overview
 
 •	Total Employees: 14,900.
 
@@ -30,7 +30,7 @@
 
 
 
-🛠️ Preprocessing \& EDA Insights
+## 🛠️ Preprocessing \& EDA Insights
 
 •	Cleaning Steps:
 
@@ -50,7 +50,7 @@
 
 
 
-🤖 Modeling Strategy
+## 🤖 Modeling Strategy
 
 We explored various algorithms to capture different patterns in the HR data:
 
@@ -66,17 +66,17 @@ We explored various algorithms to capture different patterns in the HR data:
 
 
 
-Model			              F1 Score	    ROC-AUC
+Model			             --- F1 Score	    --- ROC-AUC
 
-Logistic Regression	    0.76 		      0.753 
+Logistic Regression	   --- 0.76 		    --- 0.753 
 
-Random Forest		        0.75 		      0.7594 
+Random Forest		       --- 0.75 		    --- 0.7594 
 
-XGBoost			            0.74 		      0.7432 
+XGBoost			           --- 0.74 		    --- 0.7432 
 
-SVM 		                0.76 		      0.7628 
+SVM 		               --- 0.76 		    --- 0.7628 
 
-ANN (Deep Learning)    	0.76 	      	0.7580 
+ANN (Deep Learning)    --- 0.76 	      ---	0.7580 
 
 
 
