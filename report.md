@@ -65,18 +65,13 @@ We explored various algorithms to capture different patterns in the HR data:
 5\.	Hyperparameter tuning and 5-fold cross-validation were performed using RandomizedSearchCV.
 
 
-
-Model			             <pre> F1 Score	    </pre> ROC-AUC
-
-Logistic Regression	   > 0.76 		    > 0.753 
-
-Random Forest		       --- 0.75 		    --- 0.7594 
-
-XGBoost			           --- 0.74 		    --- 0.7432 
-
-SVM 		               --- 0.76 		    --- 0.7628 
-
-ANN (Deep Learning)    --- 0.76 	      ---	0.7580 
+| Model | F1 Score | ROC-AUC |
+| :--- | :---: | :---: |
+| Logistic Regression | 0.76 | 0.7530 |
+| Random Forest | 0.75 | 0.7594 |
+| XGBoost | 0.74 | 0.7432 |
+| **SVM** | **0.76** | **0.7628** |
+| ANN (Deep Learning) | 0.76 | 0.7580 |
 
 
 
