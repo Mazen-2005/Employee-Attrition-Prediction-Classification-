@@ -66,7 +66,7 @@ We explored various algorithms to capture different patterns in the HR data:
 
 
 
-Model			             > F1 Score	    > ROC-AUC
+Model			             | F1 Score	    | ROC-AUC
 
 Logistic Regression	   > 0.76 		    > 0.753 
 
