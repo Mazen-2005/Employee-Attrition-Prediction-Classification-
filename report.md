@@ -75,7 +75,7 @@ We explored various algorithms to capture different patterns in the HR data:
 
 
 
-## Why SVM? SVM's ability to use the "Kernel Trick" and "Soft Margin" allows it to effectively separate overlapping classes in higher dimensions, making it a robust choice for this dataset .
+#### Why SVM? SVM's ability to use the "Kernel Trick" and "Soft Margin" allows it to effectively separate overlapping classes in higher dimensions, making it a robust choice for this dataset .
 
 
 
