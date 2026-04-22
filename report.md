@@ -74,7 +74,7 @@ Random Forest		        0.75 		      0.7594
 
 XGBoost			            0.74 		      0.7432 
 
-SVM (Optimized)		      0.76 		      0.7628 
+SVM 		                0.76 		      0.7628 
 
 ANN (Deep Learning)    	0.76 	      	0.7580 
 
