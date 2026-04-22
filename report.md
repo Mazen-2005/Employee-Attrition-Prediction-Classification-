@@ -75,11 +75,11 @@ We explored various algorithms to capture different patterns in the HR data:
 
 
 
-Why SVM? SVM's ability to use the "Kernel Trick" and "Soft Margin" allows it to effectively separate overlapping classes in higher dimensions, making it a robust choice for this dataset .
+## Why SVM? SVM's ability to use the "Kernel Trick" and "Soft Margin" allows it to effectively separate overlapping classes in higher dimensions, making it a robust choice for this dataset .
 
 
 
-💡 Conclusion
+## 💡 Conclusion
 
 The models achieved a realistic performance range of 74% to 76%. While higher accuracy is technically possible, in HR contexts, accuracy exceeding 90% is often a sign of Data Leakage or Overfitting. Our results reflect the complexity of human behavior, which involves subjective factors not always present in numerical datasets.
 
